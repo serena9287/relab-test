@@ -1,0 +1,297 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #333
+}
+
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo-name{
+    color: #57B2AE;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+
+
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 600;
+}
+
+.main-nav a{
+    text-decoration: none;
+    padding: 1rem;
+    color: inherit;
+}
+
+.nav-links a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 0 40px 0 40px;
+}
+
+.bottons-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn{
+    color:#ffffff;
+    padding: 0.75em 2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+
+.free-trial-btn{
+    background-color: #FF0C7D;
+}
+
+.free-trial-btn:hover{
+    background-color: #FF3392;
+}
+
+.login-btn{
+    background-color: #57B2AE;
+}
+
+.login-btn:hover{
+    background-color: #73BFBB;
+}
+
+.welcome-section{
+    min-height: 100vh;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-header{
+    font-size: 2em;
+    text-align: center;
+}
+
+.section-subheader{
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.home-image{
+    display: block;
+    margin-top: 5%;
+    max-width: 400px;
+    width:60%;
+}
+
+.invite-text-section{
+    background-color: #D9FDFB;
+    height: 50%;
+}
+
+.invite-text{
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.referral-code{
+    background-color: #E4ECF3;
+    margin: 5% auto;
+    width: 80%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center stretch;
+}
+
+.referral-code-label{
+    display: block;
+    margin: 0 auto 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.referral-code-input{
+    display: flex;
+    justify-content: center;
+}
+
+.text-input{
+    display: inline-block;
+    border: none;
+    height: 2rem;
+    width: 50%;
+    padding: 0.1rem 1rem;
+}
+
+.text-input:focus{
+    display: inline-block;
+    outline: none;
+}
+
+.copy-link-btn{
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    height: 2rem;
+    background-color: #ffffff;
+    padding: 0.5em 1em;
+}
+
+.cards-section{
+    padding: 0;
+    margin: 0;
+}
+
+.cards-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 7% 12%;
+    justify-content: space-around;
+}
+
+.card{
+    flex:1;
+}
+
+.card-image{
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.card-desc{
+    margin: 0 auto;
+    padding: 3rem 3rem 0 3rem;
+    text-align: center;
+}
+
+.FAQ-section{
+    background-color: #FFF5F5;
+    padding: 5% 15%;
+}
+
+.FAQ-header{
+    font-size: 1.75rem;
+}
+
+.question{
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.answer{
+    display: block;
+    padding-top: 0;
+    margin-bottom: 2rem;
+}
+
+.footer-links-group{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.footer-title{
+    font-weight: 700;
+}
+
+
+.footer-links-list{
+    list-style: none;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+    color: #32302E;
+}
+
+.footer-links-list li{
+    margin-bottom: 0.75rem;
+}
+
+.footer-links-list a:hover{
+    border-bottom: 2px solid #32302E;
+    padding-bottom: 0.25rem;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 3%;
+}
+
+.terms-privacy{
+    display: flex;
+    justify-content: space-around;
+}
+
+.terms-privacy a{
+    margin-left:1rem;
+    color: #000000;
+}
+
+.copyright{
+    display: block;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media-links a{
+    margin-right: 1.5rem;
+}
