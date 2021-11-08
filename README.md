@@ -5,6 +5,7 @@ This is a relab web developer intern skill test.
 
 This project is a referral page of a website.
 It is built and styled by HTML and CSS.
+- It is responsive. When your resize your screen, the layout will change accordingly.
 - When you hover over the button, the color of the button will be changed to a slightly lighter color.
 - When you hover over the link in the nav bar, the link will be underlined in black.
 
